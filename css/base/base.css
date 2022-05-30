@@ -1,0 +1,4 @@
+main {
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
+}
