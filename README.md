@@ -10,9 +10,9 @@ _37 group website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: #coming-soon
+Site published at: https://marinkus.github.io/10-coming_soon/
 
-Design: #coming-soon
+Design: [Coming soon](https://cdn.discordapp.com/attachments/850245533838868480/850246473362178048/coming-soon-wide.png)
 
 ## Project features
 
