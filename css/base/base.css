@@ -1,4 +1,28 @@
-main {
+body {
+    background-image: url(../../img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content {
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
+}
+.container {
+    display: inline-block;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: #B2BFD2;
+    text-align: center;
 }
