@@ -15,17 +15,30 @@
 
 @media (max-width: 1100px) {
     .container > .row {
+        width: 900px;
+        margin: 0 calc(50% - 450px);
+    }
+    
+    .container > .row-short {
+        width: 600px;
+        margin: 0 calc(50% - 300px);
+}
+}
+
+@media (max-width: 900px) {
+    .container > .row {
         width: 800px;
         margin: 0 calc(50% - 400px);
     }
     
     .container > .row-short {
-        width: 400px;
-        margin: 0 calc(50% - 200px);
+        width: 600px;
+        margin: 0 calc(50% - 300px);
+
 }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
     .container > .row {
         width: 600px;
         margin: 0 calc(50% - 300px);
