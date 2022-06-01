@@ -77,4 +77,25 @@ section.bg-main {
 /* main end */
 
 /* Footer start */
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.footer-bottom > .logo {
+height: 60px;
+margin: 40px 0;
+}
+.footer-bottom > .futeriukai {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.footer-bottom a {
+    color: #fffa;
+}
 /* footer end */
