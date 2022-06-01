@@ -44,8 +44,36 @@ section.bg-main {
 /* hero end */
 
 /* main start */
-
-
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+}
+.right-column {
+    width: 40%;
+}
+.section-title {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.section-description {
+    font-size: 18px;
+    color: #777;
+}
+.section-description > a {
+    font-size: 18px;
+    color: red;
+    text-decoration: none;
+}
+.section-description > a:hover {
+    text-decoration: underline;
+}
 /* main end */
 
 /* Footer start */
