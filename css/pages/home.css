@@ -64,7 +64,7 @@ section.bg-main {
 }
 .section-description {
     font-size: 18px;
-    color: #C6CBCF;
+    color: var(--section-text-color);
 }
 .section-description > a {
     font-size: 18px;
