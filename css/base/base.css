@@ -1,6 +1,6 @@
 :root {
     --main-color: #03a9f4;
-    --text-color: #B5B2BB;
+    --hero-text-color: #B5B2BB;
     --btn-bg-color: #EA1E63;
 }
 
@@ -18,4 +18,9 @@ body {
 
 .bg-main {
     background-color: var(--main-color);
+}
+.hero-text {
+    color: var(--hero-text-color);
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
