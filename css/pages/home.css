@@ -77,6 +77,15 @@ section.bg-main {
 /* main end */
 
 /* Footer start */
+.footer.container {
+    padding: 0;
+}
+footer > .row {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    border-bottom: 2px solid #fff;
+}
 .footer-bottom {
     display: flex;
     flex-direction: column;
