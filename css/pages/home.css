@@ -64,11 +64,11 @@ section.bg-main {
 }
 .section-description {
     font-size: 18px;
-    color: #777;
+    color: #C6CBCF;
 }
 .section-description > a {
     font-size: 18px;
-    color: red;
+    color: #EE599D;
     text-decoration: none;
 }
 .section-description > a:hover {
@@ -84,14 +84,19 @@ footer > .row {
     display: flex;
     justify-content: center;
     padding: 15px 0;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #1FB2F5;
+}
+footer .row > a {
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
 }
 .footer-bottom {
     display: flex;
     flex-direction: column;
     gap: 20px;
     text-align: center;
-    color: #fff;
+    color: #9EDDF9;
     font-size: 18px;
     line-height: 1.6;
 }
@@ -103,8 +108,10 @@ margin: 40px 0;
     display: flex;
     justify-content: center;
     gap: 30px;
+    color: #46C8FA;
 }
 .footer-bottom a {
-    color: #fffa;
+    color: #C2E6FC;
+    text-decoration: none;
 }
 /* footer end */
