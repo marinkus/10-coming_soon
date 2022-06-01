@@ -13,3 +13,33 @@
 @import '../components/progress-bar.css';
 
 /* Custom style gooes below this comment line */
+
+/* Hero start */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+.hero > .logo {
+    height: 60px;
+}
+.hero > .title {
+    font-size: 70px;
+    text-transform: uppercase;
+
+}
+.hero > .description {
+    color: var(--hero-text-color);
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* hero end */
+
+/* main start */
+/* main end */
+
+/* Footer start */
+/* footer end */

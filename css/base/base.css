@@ -16,11 +16,11 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
 .bg-main {
     background-color: var(--main-color);
-}
-.hero-text {
-    color: var(--hero-text-color);
-    font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
