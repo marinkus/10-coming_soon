@@ -86,7 +86,7 @@ footer > .row {
     padding: 15px 0;
     border-bottom: 2px solid #1FB2F5;
 }
-footer .row > a {
+.socials > a {
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -97,7 +97,7 @@ footer .row > a {
     transition: all 0.7s;
     border-radius: 50%;
 }
-footer .row > a:hover {
+.socials > a:hover {
     background-color: #fff;
     color: var(--main-color);
     transition-delay: 0.2s;
@@ -124,6 +124,9 @@ footer .row > a:hover {
 .footer-bottom a {
     color: #C2E6FC;
     text-decoration: none;
+}
+.footer-bottom a:hover {
+    color: #fff;
 }
 .futeriukai > * {
     position: relative;
