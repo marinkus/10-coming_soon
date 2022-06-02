@@ -87,7 +87,7 @@ footer > .row {
     border-bottom: 2px solid #1FB2F5;
 }
 footer .row > a {
-    font-size: 18px;
+    font-size: 15px;
     color: #fff;
     padding: 10px;
 }
@@ -97,12 +97,12 @@ footer .row > a {
     gap: 20px;
     text-align: center;
     color: #9EDDF9;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.6;
 }
 .footer-bottom > .logo {
-height: 60px;
-margin: 40px 0;
+    height: 50px;
+    margin: 40px 0;
 }
 .footer-bottom > .futeriukai {
     display: flex;
@@ -114,4 +114,22 @@ margin: 40px 0;
     color: #C2E6FC;
     text-decoration: none;
 }
+.futeriukai > * {
+    position: relative;
+}
+.futeriukai > *::after {
+    display: inline-block;
+    content: '';
+    width: 0.7px;
+    height: 20px;
+    background-color: #46C8FA;
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    transform: translate(50%, -50%)
+}
+.futeriukai > *:last-child:after {
+    display: none;
+}
+
 /* footer end */
