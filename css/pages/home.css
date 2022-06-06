@@ -164,16 +164,6 @@ footer > .row {
 .futeriukai > *:last-child:after {
     display: none;
 }
-
-.back-to-top {
-    font-size: 18px;
-    line-height: 10px;
-    border-radius: 100%;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    padding: 18px;
-}
 /* footer end */
 
 @media (max-width: 700px) {

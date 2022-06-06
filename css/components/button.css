@@ -6,3 +6,11 @@
     color: #fff;
     padding: 18px 30px;
 }
+.btn.back-to-top {
+    border-radius: 100%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 18px 18px;
+    text-decoration: none;
+}
