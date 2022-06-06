@@ -1,6 +1,8 @@
 .btn {
     border: none;
+    font-size: 18px;
+    line-height: 18px;
     background-color: var(--btn-bg-color);
     color: #fff;
-    padding: 10px 25px;
+    padding: 18px 30px;
 }

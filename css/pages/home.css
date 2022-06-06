@@ -75,6 +75,9 @@ section.bg-main {
 .section-description > a:hover {
     text-decoration: underline;
 }
+.right-column .btn {
+    align-self: flex-end;
+}
 /* main end */
 
 /* Footer start */
