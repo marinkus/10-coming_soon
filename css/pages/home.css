@@ -51,11 +51,11 @@ section.bg-main {
 .form.subscribe > input {
     width: 100%;
     background-color: transparent;
-    color: #fff;
-    border-color: #fff;
+    color: #CAEAF9;
+    border-color: #BDEDFB;
 }
 .form.subscribe ::placeholder {
-    color: #fff;
+    color: #CAEAF9;
 }
 /* hero end */
 
