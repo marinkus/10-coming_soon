@@ -1,0 +1,36 @@
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    color: #ccc;
+}
+.progress-bar > .top {
+    display: flex;
+    justify-content: space-between;
+}
+.progress-bar > .top > .label {
+}
+.progress-bar > .top > .value {
+}
+.progress-bar > .bottom {
+    height: 6px;
+    background-color: #ccc;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.progress-bar > .bottom > .bar {
+    width: 90%;
+    height: 100%;
+    background-color: var(--main-color);
+}
+.progress-bar > .bottom > .bar2 {
+    width: 86%;
+    height: 100%;
+    background-color: var(--main-color);
+}
+.progress-bar > .bottom > .bar3 {
+    width: 50%;
+    height: 100%;
+    background-color: var(--main-color);
+}
