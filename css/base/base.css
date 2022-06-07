@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --main-color: #03a9f4;
     --hero-text-color: #B5B2BB;
