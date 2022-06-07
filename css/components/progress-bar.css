@@ -20,17 +20,6 @@
     overflow: hidden;
 }
 .progress-bar > .bottom > .bar {
-    width: 90%;
-    height: 100%;
-    background-color: var(--main-color);
-}
-.progress-bar > .bottom > .bar2 {
-    width: 86%;
-    height: 100%;
-    background-color: var(--main-color);
-}
-.progress-bar > .bottom > .bar3 {
-    width: 50%;
     height: 100%;
     background-color: var(--main-color);
 }
