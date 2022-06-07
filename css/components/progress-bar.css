@@ -21,7 +21,6 @@
 }
 .progress-bar > .bottom > .bar {
     height: 100%;
-    background-color: var(--main-color);
 }
 .progress-bar .bar > .loader {
     width: 100%;
@@ -29,6 +28,7 @@
     background-color: var(--main-color);
     animation: loading 2s;
 }
+
 @keyframes loading {
     0% {
         width: 0%;
